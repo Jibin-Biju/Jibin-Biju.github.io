@@ -16,7 +16,7 @@
 </head>
 <body>
     <!-- Website Layout -->
-    <ul class="website_container">
+    <div class="website_container">
         <!-- Global Menu -->
         <div id="global_menu_button_container">
             <p class="site_title">Jibin Biju</p>
@@ -48,7 +48,6 @@
                 <div class="social_media">
                     <a href="https://www.linkedin.com/in/jibin-biju-19b037228/"><i class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/Jibin-Biju"><i class="fab fa-github"></i></a>
-                    
                 </div>
             </div>
             <!-- Sidebar Buttom Menu -->
@@ -57,38 +56,33 @@
             </div>
             <!-- Sidebar Navigation -->
             <ul class="sidebar_navigation" id="sidebar_navigation">
-                <li><a href="/" class="active">About</a></li>
-                <li><a href="project.html">Projects</a></li>
-               
+                <li><a href="/">About</a></li>
+                <li><a href="project.html" class="active">Projects</a></li>
             </ul>
         </div>
         <!-- content -->
         <div class="content_container">
-            <!-- About Page -->
-            <div class="about_page">
-                <h2 class="title">About <span>Me</span></h2>
+            
+            <div class="project_page">
+                <h2 class="title">My <span>Projects</span></h2>
                 <hr class="line">
-                <div class="about_content">
-                    <p class="about_text"></p>
-                </div>
-                <div class="about_profile">
-                    <ul class="left_profile">
-                        <li><span class="profile_title">Date of Birth</span><span>April 4, 1999</span></li>
-                        <li><span class="profile_title">Gender</span><span>Male</span></li>
-                        <li><span class="profile_title">Age</span><span>23 Years Old</span></li>
-                        <li><span class="profile_title">Maritial Status</span><span>Unmarried</span></li>
-                        <li><span class="profile_title">Religion</span><span>Christian</span></li>
-                    </ul>
-                    <ul class="right_profile">
-                        <li><span class="profile_title">Profession</span><span>Web Designer</span></li>
-                        <li><span class="profile_title">Address</span><span>New York, India</span></li>
-                        <li><span class="profile_title">Contact</span><span>347-539-2883</span></li>
-                        <li><span class="profile_title">Email</span><span>jibinvbiju@gmail.com</span></li>
-                        <li><span class="profile_title">Nationality</span><span>India</span></li>
-                    </ul>
-                </div>
+                <div class="project_container">
+                    <!-- Experience container -->
+                    <div class="left_project">
+                        <h2 class="project_title"><i class="fa fa-file"></i> Projects</h2>
+                        <div class="project_box">
+                            <span class="project_date">2019-Present</span>
+                            <p class="project_box_title">Art Director</p>
+                            <p class="project_conpany">Google Inc</p>
+                            <p class="project_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+                                doloremque.</p>
+                        </div>
+                       
+                    </div>
+                    
             </div>
         </div>
-        <script src="js/script.js"></script>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
